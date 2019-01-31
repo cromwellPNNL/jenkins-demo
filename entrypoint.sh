@@ -6,4 +6,4 @@ sudo update-ca-certificates
 /bin/tini -- /usr/local/bin/jenkins.sh
 
 
-echo "hello"
+echo "hello world"
