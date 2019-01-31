@@ -4,3 +4,6 @@ openssl s_client -connect ${DTR_IP}:443 -showcerts \
 sudo update-ca-certificates
 
 /bin/tini -- /usr/local/bin/jenkins.sh
+
+
+echo "hello"
